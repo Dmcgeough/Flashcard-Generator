@@ -25,8 +25,8 @@ function playGame(cardArray, idx){
     if (answers.Q1 === cardArray[idx].front){
             console.log("Correct!");
     } else {
-        console.log("You Idiot!");
-        console.log(cardArray[idx].back){
+        console.log("Wrong-O!");
+        console.log(cardArray[idx].front)
     }
         idx++;
     playGame(cardArray, idx);
